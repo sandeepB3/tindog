@@ -1,0 +1,175 @@
+
+body{
+  font-family: "Montserrat";
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", serif;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+/* Big Heading */
+.big-heading{
+  font-family: "Montserrat", serif;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+#title{
+  background-color: #FF4C68;
+  color: #FFFFFF;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.2rem;
+
+}
+
+/* Buttons */
+.bt{
+  margin: 5% 3% 10% 0;
+}
+
+/* Title Image */
+.timg{
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  size: 50%;
+}
+
+#features{
+   text-align: center;
+   background-color: #fff;
+   padding: 3rem;
+}
+
+.icons{
+  color: #ef8172;
+  font-size: 6rem;
+  margin: 20% 0 6%;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testi-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.plogo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 80px;
+  text-align: center;
+}
+
+.pcl{
+  padding: 3% 2%;
+}
+
+.sz{
+  margin-top: 47px;
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.life{
+  font-family: "Montserrat", serif;
+  font-weight: 900;
+  font-size: 3.3rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 40px;
+}
+
+.butt{
+  margin: 0 1.5%;
+}
+@media (max-width: 1020px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .timg{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.soc{
+  margin: 0 1% 2%;
+}
+
+#footer{
+  padding: 4% 4% 1.5%;
+  text-align: center;
+}
